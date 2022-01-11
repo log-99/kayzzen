@@ -1,0 +1,137 @@
+/* Homepage body */
+.home-background {
+    background-image: url(../Images/Backgrounds/homephoto.jpg);
+    min-height: 360px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: inset 10px -26px 79px -5px rgba(0, 0, 0, 0.58);
+    margin: -10px;
+}
+
+/* Nav wrapper */
+.navigation-wrapper {
+    display: flex;
+    justify-content: space-between;
+    height: 150px;
+    align-items: center;
+    background-color: black;
+    padding: 60px 100px;
+    margin: -10px;
+}
+
+/* Left column styles */
+.navigation-wrapper > .left-column {
+    display: flex;
+    padding: 30px;
+}
+
+.navigation-wrapper > .left-column > .links-wrapper {
+    align-items: flex-start;
+    margin-left: 5px;
+    color: white;
+    height: 75px;
+    font-size: 21px;
+}
+
+.navigation-wrapper > .left-column > .links-wrapper a {
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+    margin: -2px;
+    padding-left: 3px;
+}
+
+.navigation-wrapper > .left-column > .links-wrapper a:hover {
+    color: red;
+    letter-spacing: 1px;
+}
+
+
+/* Center column styles */
+.navigation-wrapper > .center-column {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 750px;
+}
+
+.navigation-wrapper > .center-column > .banner-image {
+    display: flex;
+    justify-content: center;
+}
+
+.navigation-wrapper > .center-column > .banner-image img {
+    width: 400px;
+    height: 200px;
+    padding: 10px;
+}
+
+/* Right column styles */
+.navigation-wrapper > .right-column {
+    display: flex;
+    align-items: center;
+    padding: 30px;
+}
+
+.navigation-wrapper > .right-column > .contact-icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 2em;
+    text-decoration: none;
+}
+
+.navigation-wrapper > .right-column > .contact-icons i {
+    padding: 4px;
+    color: white;
+    transition: .5s;
+}
+
+.navigation-wrapper > .right-column > .contact-icons i:hover {
+    color: red;
+}
+
+/* Top art section */
+.featured-home {
+    background-color: black;
+    color: white;
+    margin: -10px;
+}
+
+.featured-home > .most-popular {
+    display: flex;
+}
+
+.featured-home > .most-popular > .popular-header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 200px;
+    width: 180px;
+    padding: 20px;
+}
+
+.featured-home > .most-popular > .popular-images {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
+
+.featured-home > .most-popular > .popular-images img {
+    height: 320px;
+    width: 355px;
+    margin: 15px;
+    transition: .5s;
+}
+
+.featured-home > .most-popular > .popular-images img:hover {
+    opacity: .4;
+}
+
+
+
+/* .featured-home > .featured-section {
+   padding: 20px;
+} */
